@@ -27,14 +27,10 @@
           >
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link active link" href="./index.html"
-                >Studio</a
-              >
+              <a class="menu-link active link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link link" href="">Contacts</a>
@@ -340,39 +336,27 @@
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link">
                 <svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company1"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company1"></use></svg></a></li>
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link"
                 ><svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company2"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company2"></use></svg></a></li>
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link"
                 ><svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company3"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company3"></use></svg></a></li>
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link"
                 ><svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company4"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company4"></use></svg></a></li>
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link"
                 ><svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company5"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company5"></use></svg></a></li>
             <li class="costumers-list-item">
               <a href="" class="costumers-list-link"
                 ><svg class="costumers-list-icon" width="104" height="56">
-                  <use href="./images/icons.svg#icon-company6"></use>
-                </svg></a>
-            </li>
+                  <use href="./images/icons.svg#icon-company6"></use></svg></a></li>
           </ul>
         </div>
       </section>
@@ -421,9 +405,25 @@
               </a>
             </li>
           </ul>
+          
         </div>
+        <span class="footer-form">
+            <label class="footer-form-label">
+              <span class="footer-form-label-text">Subscribe</span>              
+              <input type="email" 
+              name="email" 
+              placeholder="E-mail" 
+              class="form-footer-input">
+            </label>            
+            <button type="submit" class="subscribe-btn">
+             Subscribe
+              <svg class="btn-svg">
+              <use href="./images/icons.svg#icon-telegram" class="btn-svg-icon"></use>
+             </svg></button>
+          </span>
       </div>
     </footer>
+    <!-- MODAL WiNDOW -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -431,6 +431,62 @@
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
+        <p class="modal-form-header">Leave your contacts and we will call you back</p>
+        <form class="modal-form">          
+          <label class="modal-form-label">
+            <span class="modal-form-label-name">Name</span>
+            <span class="input-wrapper">
+            <input type="text" 
+            class="modal-form-input">
+            <svg class="modal-form-item">
+              <use href="./images/icons.svg#icon-person" class="modal-form-item-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <label class="modal-form-label">
+          <span class="modal-form-label-name">Phone</span>
+            <span class="input-wrapper">
+            <input type="tel" 
+            class="modal-form-input">
+            <svg class="modal-form-item">
+              <use href="./images/icons.svg#icon-phone" class="modal-form-item-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <label class="modal-form-label">
+          <span class="modal-form-label-name">Email</span>
+            <span class="input-wrapper">
+            <input type="email" 
+            class="modal-form-input">
+            <svg class="modal-form-item">
+              <use href="./images/icons.svg#icon-email" class="modal-form-item-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <label class="modal-form-label">
+          <span class="modal-form-label-name">Comment</span>
+          <textarea name="user-comment" 
+          placeholder="Text input"
+          class="modal-form-textarea"
+          ></textarea>
+        </label>
+        <input id="user_policy" 
+        type="checkbox" 
+        name="user_policy" 
+        class="modal-form-check visually-hidden">
+        <label for="user_policy" 
+        class="modal-form-check-descr">&nbsp;
+        I accept the terms and conditions of the&nbsp;
+        <a href="" class="user-privacy-link">Privacy Policy</a>
+      </label>
+      <button type="submit" 
+      class="modal-form-submit">Send
+    </button>
+
+
+            
+          
+        </form>      
       </div>
     </div>
 
