@@ -484,7 +484,7 @@ body {
   margin-bottom: 16px;
 }
 .form-footer-input {
-  max-width: 264px;
+  min-width: 264px;
   height: 40px;
   padding-left: 16px;
   padding-top: 8px;
